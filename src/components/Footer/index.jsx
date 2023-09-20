@@ -12,7 +12,7 @@ export default function Footer() {
     return (
         <footer className="
             bg-black py-20 mt-14 flex flex-col gap-10 items-center text-center
-            lg:px-28 lg:grid lg:grid-cols-2 lg:grid-rows-2
+            lg:px-32 lg:grid lg:grid-cols-2 lg:grid-rows-2
             ">
             <div className="lg:order-1">
                 <img src={logo} alt="" />

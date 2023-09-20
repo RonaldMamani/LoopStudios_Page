@@ -10,14 +10,18 @@ export default function Header() {
             ">
             <Nav />
             <div className="
-                mt-36 mx-6
-                md:p-10
+                mt-32 mx-6
+                md:px-10
                 lg:px-32 lg:mt-20
                 ">
                 <Title className="
                     text-slate-50 text-5xl font-light border-2 py-5 px-8
-                    md:w-[60%] lg:text-8xl md:border-4 lg:py-8
-                    " text="IMMERSIVE EXPERIENCES THAT DELIVER" />
+                    md:w-[60%] md:p-10 md:border-4
+                    lg:w-[90%] lg:text-8xl lg:px-16
+                    xl:w-[65%]
+                    " text="IMMERSIVE EXPERIENCES THAT DELIVER" 
+                />
+                <div></div>
             </div>
         </div>
     )

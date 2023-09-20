@@ -14,15 +14,15 @@ export default function Nav() {
             md:p-10
             lg:mx-28
             ">
-            <img src={logo} alt="" />
+            <img className="cursor-pointer" src={logo} alt="" />
             <button className="lg:hidden" onClick={() => {setOpen(!Open)}}>
-                {Open ? (
+                {!Open ? (
                     <>
                         <img src={menu} alt="" />
                     </>
                 ) : (
-                    <div className="bg-black transition-colors  absolute h-screen w-screen left-0 top-0">
-                        <div className="flex justify-between items-center m-5 md:p-10">
+                    <div className="bg-black/95 transition-colors  absolute h-screen w-screen left-0 top-0">
+                        <div className="flex justify-between items-center m-4 md:p-10">
                                 <img className="" src={logo} alt="" />
                                 <img className="" src={close} alt="" />                           
                         </div>
