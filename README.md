@@ -2,6 +2,11 @@
 # Loop Studios
 
 Projeto de Site baseado em Landing Page, onde é baseado em um site da Loop Studios onde apresenta os serviços da Empresa, o site é totalmente responsivo para diversas telas, como Desktop, Tablet e Mobile.
+
+## Imagem
+
+![LoopStudios](https://res.cloudinary.com/dz209s6jk/image/upload/v1614405499/Screenshots/kkpn1aztm3bjjauwmegx.jpg)
+
 ## Stack utilizada
 
 **Front-end:** React, Vite, TailwindCSS, JavaScript, HTML, CSS
